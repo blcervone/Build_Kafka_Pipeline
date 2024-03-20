@@ -10,6 +10,9 @@ services:
 
   broker:
     image: confluentinc/cp-kafka:latest
+    build:
+      context: ./broker
+      dockerfile: Dockerfile-broker
     container_name: broker
     environment:
       KAFKA_BROKER_ID: 1
