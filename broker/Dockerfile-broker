@@ -1,3 +1,0 @@
-FROM confluentinc/cp-kafka
-
-#CMD ["kafka-topics", "--bootstrap-server", "localhost:9092", "--create", "--partitions", "1", "--topic", "latest_events"]
